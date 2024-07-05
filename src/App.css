@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #61346c;
+  padding: 2px;
+  color: white;
+}
+
+.content {
+  background-color: #e998fd;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(78, 43, 85, 0.1);
+}
+
+.notes-section {
+  flex: 2;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-section img {
+  margin: 50px;
+  width: 100%;
+  max-width: 400px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-section img {
+    margin: 20px;
+    width: 80%;
+    max-width: 300px;
+  }
+}

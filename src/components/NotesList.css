@@ -1,0 +1,18 @@
+.notes-list {
+  text-align: left;
+}
+
+.notes-list input, .notes-list textarea, .notes-list select, .notes-list button {
+  margin: 10px 0;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.note-card {
+  margin: 10px;
+  width: 300px;
+}
